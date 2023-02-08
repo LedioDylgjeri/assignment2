@@ -1,27 +1,72 @@
+* {
+  margin: 0;
+  padding: 0;
+  height: 92.9%;
+}
+
 body {
   background: rgba(192, 192, 192, 0.731);
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-  
 }
 
 header {
   background: black;
   text-align: center;
   height: 3rem;
+  padding-top: 2rem;
 }
 
 li {
   text-decoration: none;
   color: white;
   display: inline;
-  margin: 0 2.5rem;
+  margin: 2.5rem;
   text-transform: capitalize;
+  height: 13rem;
+  text-align: center; 
 }
 
-.div1, .div2, .div3 {
-  height: 5rem;
-  width: 5rem;
+li:hover {
+  background-color: orange;
+}
+
+.div1 {
+  height: 20rem;
+  width: 25rem;
   border: 1px solid red;
+  margin: 2rem auto;
+  overflow: hidden;
+  overflow-y: scroll;
+}
+
+.div2 {
+  display: inline-block;
+  height: 17rem;
+  width: 14rem;
+  border: 1px solid red;
+  margin: 0 5rem;
+  margin-bottom: -6rem;
+  margin-left: 3rem;
+}
+
+.div3 {
+  display: inline-block;
+  height: 12rem;
+  width: 20rem;
+  border: 1px solid red;
+  margin-top: 2rem;
+  margin-left: 10rem;
+}
+
+button {
+  background: orange;
+  color: white;
+  width: 13rem;
+  height: 2rem;
+  border: none;
+  border-radius: 5px;
+  margin-left: 37rem;
+  margin-top: 5rem;
 }
 
 footer {
@@ -29,9 +74,5 @@ footer {
   color: white;
   height: 3rem;
   text-align: center;
-}
-
-.footer-p {
-  margin-bottom: .5rem;
-  border: 1px solid red;
+  padding-top: 2rem;
 }
