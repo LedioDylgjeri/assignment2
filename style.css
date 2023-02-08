@@ -1,7 +1,6 @@
 * {
   margin: 0;
   padding: 0;
-  height: 92.9%;
 }
 
 body {
@@ -12,67 +11,100 @@ body {
 header {
   background: black;
   text-align: center;
-  height: 3rem;
-  padding-top: 2rem;
+  height: 1rem;
+  padding-top: .5rem;
+  padding-bottom: .5rem;
 }
 
 li {
-  text-decoration: none;
-  color: white;
   display: inline;
   margin: 2.5rem;
   text-transform: capitalize;
-  height: 13rem;
   text-align: center; 
 }
 
-li:hover {
+ul>li>a:hover {
   background-color: orange;
+  padding: .4rem .8rem; 
+}
+
+ul>li>a {
+  text-decoration: none;
+  color: white;
 }
 
 .div1 {
   height: 20rem;
-  width: 25rem;
-  border: 1px solid red;
+  width: 20rem;
+  border: 3px solid hotpink;
   margin: 2rem auto;
+  padding-left: 5px;
   overflow: hidden;
   overflow-y: scroll;
+  overflow-x: scroll; 
 }
 
 .div2 {
   display: inline-block;
-  height: 17rem;
-  width: 14rem;
-  border: 1px solid red;
+  height: 16rem;
+  width: 13rem;
+  border: 2px solid black;
+  border-radius: 5px;
   margin: 0 5rem;
-  margin-bottom: -6rem;
-  margin-left: 3rem;
+  margin-left: 6rem;
+}
+
+.div2>img {
+  height: 16rem;
+  width: 13rem;
 }
 
 .div3 {
   display: inline-block;
   height: 12rem;
-  width: 20rem;
-  border: 1px solid red;
-  margin-top: 2rem;
-  margin-left: 10rem;
+  width: 22rem;
+  margin-top: 5rem;
+  margin-left: 5rem;
+}
+
+.p1, .p2, .p3 {
+  height: 4rem;
+}
+
+.p1 {
+  background-color: hotpink;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.p2 {
+  background-color: pink;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+.p3 {
+  background-color: lightpink;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 button {
   background: orange;
+  display: inline;
   color: white;
   width: 13rem;
   height: 2rem;
   border: none;
   border-radius: 5px;
-  margin-left: 37rem;
-  margin-top: 5rem;
+  margin-left: 5rem;
+  margin-top: 3rem;
 }
 
 footer {
   background: black;
   color: white;
   height: 3rem;
+  width: 100%;
   text-align: center;
   padding-top: 2rem;
+  position: absolute;
+  bottom: 0px;
 }
